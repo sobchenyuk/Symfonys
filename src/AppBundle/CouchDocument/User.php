@@ -23,6 +23,12 @@ class User extends BaseUser
     private $name;
 
 
+    /**
+     * @CouchDB\phone
+     */
+    private $phone;
+
+
     public function __construct()
     {
         parent::__construct();
