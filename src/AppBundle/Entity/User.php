@@ -19,6 +19,10 @@ class User extends BaseUser
      */
     protected $id;
 
+    protected $name;
+
+    protected $phone;
+
     public function __construct()
     {
         parent::__construct();
