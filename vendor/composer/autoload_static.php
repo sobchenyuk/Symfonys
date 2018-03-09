@@ -52,6 +52,10 @@ class ComposerStaticInitfc63553142606d68c4569a7ba036edb3
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
         ),
+        'O' => 
+        array (
+            'OAuth2\\' => 7,
+        ),
         'M' => 
         array (
             'Monolog\\' => 8,
@@ -63,6 +67,7 @@ class ComposerStaticInitfc63553142606d68c4569a7ba036edb3
         'F' => 
         array (
             'Fig\\Link\\' => 9,
+            'FOS\\OAuthServerBundle\\' => 22,
         ),
         'D' => 
         array (
@@ -179,6 +184,10 @@ class ComposerStaticInitfc63553142606d68c4569a7ba036edb3
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
+        'OAuth2\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/friendsofsymfony/oauth2-php/lib',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -190,6 +199,10 @@ class ComposerStaticInitfc63553142606d68c4569a7ba036edb3
         'Fig\\Link\\' => 
         array (
             0 => __DIR__ . '/..' . '/fig/link-util/src',
+        ),
+        'FOS\\OAuthServerBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/friendsofsymfony/oauth-server-bundle',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
