@@ -19,10 +19,10 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
 
             new FOS\UserBundle\FOSUserBundle(),
-            new FOS\RestBundle\FOSRestBundle(),
-            new FOS\OAuthServerBundle\FOSOAuthServerBundle(),
-            new JMS\SerializerBundle\JMSSerializerBundle(),
-            new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
+//            new FOS\RestBundle\FOSRestBundle(),
+////            new FOS\OAuthServerBundle\FOSOAuthServerBundle(),
+//            new JMS\SerializerBundle\JMSSerializerBundle(),
+//            new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
