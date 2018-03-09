@@ -16,6 +16,13 @@ class User extends BaseUser
      */
     protected $id;
 
+
+    /**
+     * @CouchDB\name
+     */
+    private $name;
+
+
     public function __construct()
     {
         parent::__construct();

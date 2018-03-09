@@ -16,6 +16,13 @@ class User extends BaseUser
      */
     protected $id;
 
+
+    /**
+     * @MongoDB\name(type="string")
+     */
+    private $name;
+
+
     public function __construct()
     {
         parent::__construct();
